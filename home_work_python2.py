@@ -63,7 +63,7 @@ for user in users:
 assert suitable_users == {"name": "Olga", "age": 45}
 
     # TODO найдите всех пользователей младше 20 лет
-suitable_users = None
+suitable_users = []
 
 for user in users:
     if user["age"] < 20:
